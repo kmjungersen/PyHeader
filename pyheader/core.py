@@ -43,7 +43,7 @@ class DjangoStaticFileToken():
 
     def __str__(self):
 
-        token = '{% load staticfile %}'
+        token = '{% load staticfiles %}'
 
         return token
 

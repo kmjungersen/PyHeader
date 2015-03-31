@@ -11,8 +11,6 @@ class Header():
 
     def __init__(self, config):
 
-        ipdb.set_trace()
-
         self.header = '\n\n'
 
         for cfg_line in config:
